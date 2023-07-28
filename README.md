@@ -1,8 +1,8 @@
 # deploy-v2.1
 
 ```
-git clone https://github.com/Gearbox-protocol/deploy-v2.1.git
-cd deploy-v.2.1
+git clone https://github.com/manylov/safe-executor.git
+cd safe-executor
 yarn
 ```
 
