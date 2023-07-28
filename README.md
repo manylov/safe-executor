@@ -16,7 +16,7 @@ of
 
 `npx hardhat node`
 
-run scripts in ./scripts folder one by one
+run scripts
 `npx hardhat run --network localhost ./scripts/cm-weth/execute.ts`
 
 ### Important note !!!
