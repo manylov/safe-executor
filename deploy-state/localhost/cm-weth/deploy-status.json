@@ -1,0 +1,283 @@
+{
+  "Create2Deployer": {
+    "contractName": "Create2Deployer",
+    "contractAddress": "0x59b7B8Dd9E6e1F934C9c3Def4a1Eb69Bc17Ec9cc",
+    "constructorArguments": [],
+    "verify": true,
+    "verified": true,
+    "githubChecked": false
+  },
+  "CreditManager": {
+    "contractName": "CreditManager",
+    "contractAddress": "0x4C6309fe2085EfE7A0Cfb426C16Ef3b41198cCE3",
+    "constructorArguments": [
+      "0xb03670c20f87f2169a7c4ebe35746007e9575901"
+    ],
+    "verify": true,
+    "verified": true,
+    "githubChecked": false
+  },
+  "CreditFacade": {
+    "contractName": "CreditFacade",
+    "contractAddress": "0xFaCADE00dc661bfBE736e2F0f72b4Ee59017d5fb",
+    "constructorArguments": [
+      "0x4C6309fe2085EfE7A0Cfb426C16Ef3b41198cCE3",
+      "0xB829a5b349b01fc71aFE46E50dD6Ec0222A6E599",
+      "0x0000000000000000000000000000000000000000",
+      false
+    ],
+    "verify": true,
+    "verified": true,
+    "githubChecked": false
+  },
+  "CreditConfigurator": {
+    "contractName": "CreditConfigurator",
+    "contractAddress": "0xcc000017BeEDCBc7fAb3e57FAB3Cb72c2D00a343",
+    "constructorArguments": [
+      "0x4C6309fe2085EfE7A0Cfb426C16Ef3b41198cCE3",
+      "0xFaCADE00dc661bfBE736e2F0f72b4Ee59017d5fb",
+      {
+        "minBorrowedAmount": "75000000000000000000",
+        "maxBorrowedAmount": "600000000000000000000",
+        "collateralTokens": [
+          {
+            "token": "0x2260FAC5E5542a773Aa44fBCfeDf7C193bc2C599",
+            "liquidationThreshold": {
+              "type": "BigNumber",
+              "hex": "0x2134"
+            }
+          },
+          {
+            "token": "0xdAC17F958D2ee523a2206206994597C13D831ec7",
+            "liquidationThreshold": {
+              "type": "BigNumber",
+              "hex": "0x2134"
+            }
+          },
+          {
+            "token": "0xf5f5B97624542D72A9E06f04804Bf81baA15e2B4",
+            "liquidationThreshold": {
+              "type": "BigNumber",
+              "hex": "0x2260"
+            }
+          },
+          {
+            "token": "0xB77BA8B4b9d981269466eE95796A9Af57d4E82DB",
+            "liquidationThreshold": {
+              "type": "BigNumber",
+              "hex": "0x2260"
+            }
+          },
+          {
+            "token": "0xEE3EE8373384BBfea3227E527C1B9b4e7821273E",
+            "liquidationThreshold": {
+              "type": "BigNumber",
+              "hex": "0x2260"
+            }
+          },
+          {
+            "token": "0xEd4064f376cB8d68F770FB1Ff088a3d0F3FF5c4d",
+            "liquidationThreshold": {
+              "type": "BigNumber",
+              "hex": "0x2008"
+            }
+          },
+          {
+            "token": "0x0Fb8dcdD95e4C48D3dD0eFA4086512f6F8FD4565",
+            "liquidationThreshold": {
+              "type": "BigNumber",
+              "hex": "0x2008"
+            }
+          },
+          {
+            "token": "0xfC4b109D46e12170DF31AF8ba39403fAC2b8c0cf",
+            "liquidationThreshold": {
+              "type": "BigNumber",
+              "hex": "0x2008"
+            }
+          },
+          {
+            "token": "0x3A283D9c08E8b55966afb64C515f5143cf907611",
+            "liquidationThreshold": {
+              "type": "BigNumber",
+              "hex": "0x2008"
+            }
+          },
+          {
+            "token": "0x0bC857f97c0554d1d0D602b56F2EEcE682016fBA",
+            "liquidationThreshold": {
+              "type": "BigNumber",
+              "hex": "0x2008"
+            }
+          },
+          {
+            "token": "0x948bEd0211076b05d22e98929217d0f04D068C5c",
+            "liquidationThreshold": {
+              "type": "BigNumber",
+              "hex": "0x2008"
+            }
+          },
+          {
+            "token": "0xb79565c01b7Ae53618d9B847b9443aAf4f9011e7",
+            "liquidationThreshold": {
+              "type": "BigNumber",
+              "hex": "0x2008"
+            }
+          },
+          {
+            "token": "0x4eBE557ae39F87D2a014719777FD4cF4d01Dc8Ee",
+            "liquidationThreshold": {
+              "type": "BigNumber",
+              "hex": "0x2008"
+            }
+          },
+          {
+            "token": "0x2Fd6bD5b81c1060039D619E76e4e1f924B173006",
+            "liquidationThreshold": {
+              "type": "BigNumber",
+              "hex": "0x2008"
+            }
+          },
+          {
+            "token": "0x4e3FBD56CD56c3e72c1403e103b45Db9da5B9D2B",
+            "liquidationThreshold": {
+              "type": "BigNumber",
+              "hex": "0x09c4"
+            }
+          },
+          {
+            "token": "0xD533a949740bb3306d119CC777fa900bA034cd52",
+            "liquidationThreshold": {
+              "type": "BigNumber",
+              "hex": "0x09c4"
+            }
+          },
+          {
+            "token": "0x5A98FcBEA516Cf06857215779Fd812CA3beF1B32",
+            "liquidationThreshold": {
+              "type": "BigNumber",
+              "hex": "0x09c4"
+            }
+          }
+        ],
+        "degenNFT": "0xB829a5b349b01fc71aFE46E50dD6Ec0222A6E599",
+        "blacklistHelper": "0x0000000000000000000000000000000000000000",
+        "expirable": false
+      }
+    ],
+    "verify": true,
+    "verified": true,
+    "githubChecked": false
+  },
+  "CURVE_3CRYPTO_POOL:CurveV1Adapter3Assets": {
+    "contractName": "CurveV1Adapter3Assets",
+    "contractAddress": "0xf590828b788324D207e18882baF6d04F217d17a6",
+    "constructorArguments": [
+      "0x4C6309fe2085EfE7A0Cfb426C16Ef3b41198cCE3",
+      "0xf5f5B97624542D72A9E06f04804Bf81baA15e2B4",
+      "0xf5f5B97624542D72A9E06f04804Bf81baA15e2B4",
+      "0x0000000000000000000000000000000000000000"
+    ],
+    "verify": true,
+    "verified": true,
+    "githubChecked": false
+  },
+  "CURVE_CRVETH_POOL:CurveV1Adapter2Assets": {
+    "contractName": "CurveV1Adapter2Assets",
+    "contractAddress": "0x862a97Ad7Efa1D66A1024EE26CDc3C0e13883168",
+    "constructorArguments": [
+      "0x4C6309fe2085EfE7A0Cfb426C16Ef3b41198cCE3",
+      "0x8301AE4fc9c624d1D396cbDAa1ed877821D7C511",
+      "0xEd4064f376cB8d68F770FB1Ff088a3d0F3FF5c4d",
+      "0x0000000000000000000000000000000000000000"
+    ],
+    "verify": true,
+    "verified": true,
+    "githubChecked": false
+  },
+  "CURVE_CVXETH_POOL:CurveV1Adapter2Assets": {
+    "contractName": "CurveV1Adapter2Assets",
+    "contractAddress": "0x4DB070caD7Ca264A3BcED7166535A82B1A711916",
+    "constructorArguments": [
+      "0x4C6309fe2085EfE7A0Cfb426C16Ef3b41198cCE3",
+      "0xB576491F1E6e5E62f1d8F26062Ee822B40B0E0d4",
+      "0x3A283D9c08E8b55966afb64C515f5143cf907611",
+      "0x0000000000000000000000000000000000000000"
+    ],
+    "verify": true,
+    "verified": true,
+    "githubChecked": false
+  },
+  "CURVE_LDOETH_POOL:CurveV1Adapter2Assets": {
+    "contractName": "CurveV1Adapter2Assets",
+    "contractAddress": "0x51DC4adb76bf9823b3aFB4332f6Ce826d71D6129",
+    "constructorArguments": [
+      "0x4C6309fe2085EfE7A0Cfb426C16Ef3b41198cCE3",
+      "0x9409280DC1e6D33AB7A8C6EC03e5763FB61772B5",
+      "0xb79565c01b7Ae53618d9B847b9443aAf4f9011e7",
+      "0x0000000000000000000000000000000000000000"
+    ],
+    "verify": true,
+    "verified": true,
+    "githubChecked": false
+  },
+  "CONVEX_3CRYPTO_POOL:ConvexV1BaseRewardPoolAdapter": {
+    "contractName": "ConvexV1BaseRewardPoolAdapter",
+    "contractAddress": "0x7E59332011D7f4b248F70050371C28cE07a69DD5",
+    "constructorArguments": [
+      "0x4C6309fe2085EfE7A0Cfb426C16Ef3b41198cCE3",
+      "0xb05262D4aaAA38D0Af4AaB244D446ebDb5afd4A7",
+      "0xEE3EE8373384BBfea3227E527C1B9b4e7821273E"
+    ],
+    "verify": true,
+    "verified": true,
+    "githubChecked": false
+  },
+  "CONVEX_CRVETH_POOL:ConvexV1BaseRewardPoolAdapter": {
+    "contractName": "ConvexV1BaseRewardPoolAdapter",
+    "contractAddress": "0xF17391544B749CE209d1ea94F68Ca95e79883C5B",
+    "constructorArguments": [
+      "0x4C6309fe2085EfE7A0Cfb426C16Ef3b41198cCE3",
+      "0x085A2054c51eA5c91dbF7f90d65e728c0f2A270f",
+      "0xfC4b109D46e12170DF31AF8ba39403fAC2b8c0cf"
+    ],
+    "verify": true,
+    "verified": true,
+    "githubChecked": false
+  },
+  "CONVEX_CVXETH_POOL:ConvexV1BaseRewardPoolAdapter": {
+    "contractName": "ConvexV1BaseRewardPoolAdapter",
+    "contractAddress": "0xcaB9F02Baf9f3414a859D6b73B243407d303389d",
+    "constructorArguments": [
+      "0x4C6309fe2085EfE7A0Cfb426C16Ef3b41198cCE3",
+      "0xb1Fb0BA0676A1fFA83882c7F4805408bA232C1fA",
+      "0x948bEd0211076b05d22e98929217d0f04D068C5c"
+    ],
+    "verify": true,
+    "verified": true,
+    "githubChecked": false
+  },
+  "CONVEX_LDOETH_POOL:ConvexV1BaseRewardPoolAdapter": {
+    "contractName": "ConvexV1BaseRewardPoolAdapter",
+    "contractAddress": "0x9Fef386B7f1d5Da7D6b98A6DD5Dad3c4d66E25C1",
+    "constructorArguments": [
+      "0x4C6309fe2085EfE7A0Cfb426C16Ef3b41198cCE3",
+      "0x8CA990E954611E5E3d2cc51C013fCC372c8c1D38",
+      "0x2Fd6bD5b81c1060039D619E76e4e1f924B173006"
+    ],
+    "verify": true,
+    "verified": true,
+    "githubChecked": false
+  },
+  "CONVEX_BOOSTER:ConvexV1BoosterAdapter": {
+    "contractName": "ConvexV1BoosterAdapter",
+    "contractAddress": "0x6a20FBb49F9D199a3C2B313bb0992523116E3C47",
+    "constructorArguments": [
+      "0x4C6309fe2085EfE7A0Cfb426C16Ef3b41198cCE3",
+      "0xF403C135812408BFbE8713b5A23a04b3D48AAE31"
+    ],
+    "verify": true,
+    "verified": true,
+    "githubChecked": false
+  }
+}
