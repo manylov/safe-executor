@@ -1,5 +1,3 @@
-import path from "path";
-import { Initializer } from "../../src/base/Initializer";
 import { TxManager } from "../../src/base/TxManager";
 import { evm_fast_forward } from "../../src/base/utils/warp";
 
