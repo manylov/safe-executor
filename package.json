@@ -48,5 +48,9 @@
     "web3": "^1.9.0",
     "web3-eth-abi": "^1.9.0",
     "web3-utils": "^1.9.0"
+  },
+  "dependencies": {
+    "@gearbox-protocol/devops": "^1.6.3",
+    "@gearbox-protocol/sdk": "^1.27.5"
   }
 }
