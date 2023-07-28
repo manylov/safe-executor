@@ -1,0 +1,737 @@
+{
+  "version": "1.0",
+  "chainId": "1",
+  "createdAt": 1690301769587,
+  "meta": {
+    "name": "batch-queue.json",
+    "description": "new WETH pool CreditManager setup txs",
+    "txBuilderVersion": "1.16.0",
+    "createdFromSafeAddress": "0xA7D5DDc1b8557914F158076b228AA91eF613f1D5",
+    "createdFromOwnerAddress": "",
+    "checksum": "0x4cf13ca225227baa410f05f7bd417c0fcd173de71d9006c3dce369443f88abc3"
+  },
+  "transactions": [
+    {
+      "to": "0xa133C9A92Fb8dDB962Af1cbae58b2723A0bdf23b",
+      "value": "0",
+      "contractMethod": {
+        "inputs": [
+          {
+            "type": "address",
+            "name": "target",
+            "internalType": "address[]"
+          },
+          {
+            "type": "uint256",
+            "name": "value"
+          },
+          {
+            "type": "string",
+            "name": "signature"
+          },
+          {
+            "type": "bytes",
+            "name": "data"
+          },
+          {
+            "type": "uint256",
+            "name": "eta"
+          }
+        ],
+        "name": "queueTransaction",
+        "payable": false
+      },
+      "contractInputsValues": {
+        "target": "0xA50d4E7D8946a7c90652339CDBd262c375d54D99",
+        "value": "0",
+        "signature": "addCreditManager(address)",
+        "data": "0x0000000000000000000000004c6309fe2085efe7a0cfb426c16ef3b41198cce3",
+        "eta": "1690733759"
+      }
+    },
+    {
+      "to": "0xa133C9A92Fb8dDB962Af1cbae58b2723A0bdf23b",
+      "value": "0",
+      "contractMethod": {
+        "inputs": [
+          {
+            "type": "address",
+            "name": "target",
+            "internalType": "address[]"
+          },
+          {
+            "type": "uint256",
+            "name": "value"
+          },
+          {
+            "type": "string",
+            "name": "signature"
+          },
+          {
+            "type": "bytes",
+            "name": "data"
+          },
+          {
+            "type": "uint256",
+            "name": "eta"
+          }
+        ],
+        "name": "queueTransaction",
+        "payable": false
+      },
+      "contractInputsValues": {
+        "target": "0xb03670c20f87f2169a7c4ebe35746007e9575901",
+        "value": "0",
+        "signature": "connectCreditManager(address)",
+        "data": "0x0000000000000000000000004c6309fe2085efe7a0cfb426c16ef3b41198cce3",
+        "eta": "1690733759"
+      }
+    },
+    {
+      "to": "0xa133C9A92Fb8dDB962Af1cbae58b2723A0bdf23b",
+      "value": "0",
+      "contractMethod": {
+        "inputs": [
+          {
+            "type": "address",
+            "name": "target",
+            "internalType": "address[]"
+          },
+          {
+            "type": "uint256",
+            "name": "value"
+          },
+          {
+            "type": "string",
+            "name": "signature"
+          },
+          {
+            "type": "bytes",
+            "name": "data"
+          },
+          {
+            "type": "uint256",
+            "name": "eta"
+          }
+        ],
+        "name": "queueTransaction",
+        "payable": false
+      },
+      "contractInputsValues": {
+        "target": "0xcc000017BeEDCBc7fAb3e57FAB3Cb72c2D00a343",
+        "value": "0",
+        "signature": "setTotalDebtLimit(uint128)",
+        "data": "0x000000000000000000000000000000000000000000000097c9ce4cf6d5c00000",
+        "eta": "1690733759"
+      }
+    },
+    {
+      "to": "0xa133C9A92Fb8dDB962Af1cbae58b2723A0bdf23b",
+      "value": "0",
+      "contractMethod": {
+        "inputs": [
+          {
+            "type": "address",
+            "name": "target",
+            "internalType": "address[]"
+          },
+          {
+            "type": "uint256",
+            "name": "value"
+          },
+          {
+            "type": "string",
+            "name": "signature"
+          },
+          {
+            "type": "bytes",
+            "name": "data"
+          },
+          {
+            "type": "uint256",
+            "name": "eta"
+          }
+        ],
+        "name": "queueTransaction",
+        "payable": false
+      },
+      "contractInputsValues": {
+        "target": "0xcc000017BeEDCBc7fAb3e57FAB3Cb72c2D00a343",
+        "value": "0",
+        "signature": "setEmergencyLiquidationDiscount(uint16)",
+        "data": "0x0000000000000000000000000000000000000000000000000000000000002580",
+        "eta": "1690733759"
+      }
+    },
+    {
+      "to": "0xa133C9A92Fb8dDB962Af1cbae58b2723A0bdf23b",
+      "value": "0",
+      "contractMethod": {
+        "inputs": [
+          {
+            "type": "address",
+            "name": "target",
+            "internalType": "address[]"
+          },
+          {
+            "type": "uint256",
+            "name": "value"
+          },
+          {
+            "type": "string",
+            "name": "signature"
+          },
+          {
+            "type": "bytes",
+            "name": "data"
+          },
+          {
+            "type": "uint256",
+            "name": "eta"
+          }
+        ],
+        "name": "queueTransaction",
+        "payable": false
+      },
+      "contractInputsValues": {
+        "target": "0xcc000017BeEDCBc7fAb3e57FAB3Cb72c2D00a343",
+        "value": "0",
+        "signature": "addEmergencyLiquidator(address)",
+        "data": "0x00000000000000000000000016040e932b5ac7a3ab23b88a2f230b4185727b0d",
+        "eta": "1690733759"
+      }
+    },
+    {
+      "to": "0xa133C9A92Fb8dDB962Af1cbae58b2723A0bdf23b",
+      "value": "0",
+      "contractMethod": {
+        "inputs": [
+          {
+            "type": "address",
+            "name": "target",
+            "internalType": "address[]"
+          },
+          {
+            "type": "uint256",
+            "name": "value"
+          },
+          {
+            "type": "string",
+            "name": "signature"
+          },
+          {
+            "type": "bytes",
+            "name": "data"
+          },
+          {
+            "type": "uint256",
+            "name": "eta"
+          }
+        ],
+        "name": "queueTransaction",
+        "payable": false
+      },
+      "contractInputsValues": {
+        "target": "0xcc000017BeEDCBc7fAb3e57FAB3Cb72c2D00a343",
+        "value": "0",
+        "signature": "addEmergencyLiquidator(address)",
+        "data": "0x0000000000000000000000003c2e5548bce88315d50eab4f6b1ffb2f1b8ebd7a",
+        "eta": "1690733759"
+      }
+    },
+    {
+      "to": "0xa133C9A92Fb8dDB962Af1cbae58b2723A0bdf23b",
+      "value": "0",
+      "contractMethod": {
+        "inputs": [
+          {
+            "type": "address",
+            "name": "target",
+            "internalType": "address[]"
+          },
+          {
+            "type": "uint256",
+            "name": "value"
+          },
+          {
+            "type": "string",
+            "name": "signature"
+          },
+          {
+            "type": "bytes",
+            "name": "data"
+          },
+          {
+            "type": "uint256",
+            "name": "eta"
+          }
+        ],
+        "name": "queueTransaction",
+        "payable": false
+      },
+      "contractInputsValues": {
+        "target": "0x523dA3a8961E4dD4f6206DBf7E6c749f51796bb3",
+        "value": "0",
+        "signature": "addPausableAdmin(address)",
+        "data": "0x000000000000000000000000facade00dc661bfbe736e2f0f72b4ee59017d5fb",
+        "eta": "1690733759"
+      }
+    },
+    {
+      "to": "0xa133C9A92Fb8dDB962Af1cbae58b2723A0bdf23b",
+      "value": "0",
+      "contractMethod": {
+        "inputs": [
+          {
+            "type": "address",
+            "name": "target",
+            "internalType": "address[]"
+          },
+          {
+            "type": "uint256",
+            "name": "value"
+          },
+          {
+            "type": "string",
+            "name": "signature"
+          },
+          {
+            "type": "bytes",
+            "name": "data"
+          },
+          {
+            "type": "uint256",
+            "name": "eta"
+          }
+        ],
+        "name": "queueTransaction",
+        "payable": false
+      },
+      "contractInputsValues": {
+        "target": "0xcc000017BeEDCBc7fAb3e57FAB3Cb72c2D00a343",
+        "value": "0",
+        "signature": "setMaxCumulativeLoss(uint128)",
+        "data": "0x00000000000000000000000000000000000000000000002086ac351052600000",
+        "eta": "1690733759"
+      }
+    },
+    {
+      "to": "0xa133C9A92Fb8dDB962Af1cbae58b2723A0bdf23b",
+      "value": "0",
+      "contractMethod": {
+        "inputs": [
+          {
+            "type": "address",
+            "name": "target",
+            "internalType": "address[]"
+          },
+          {
+            "type": "uint256",
+            "name": "value"
+          },
+          {
+            "type": "string",
+            "name": "signature"
+          },
+          {
+            "type": "bytes",
+            "name": "data"
+          },
+          {
+            "type": "uint256",
+            "name": "eta"
+          }
+        ],
+        "name": "queueTransaction",
+        "payable": false
+      },
+      "contractInputsValues": {
+        "target": "0x6a20FBb49F9D199a3C2B313bb0992523116E3C47",
+        "value": "0",
+        "signature": "updateStakedPhantomTokensMap()",
+        "data": "0x",
+        "eta": "1690733759"
+      }
+    },
+    {
+      "to": "0xa133C9A92Fb8dDB962Af1cbae58b2723A0bdf23b",
+      "value": "0",
+      "contractMethod": {
+        "inputs": [
+          {
+            "type": "address",
+            "name": "target",
+            "internalType": "address[]"
+          },
+          {
+            "type": "uint256",
+            "name": "value"
+          },
+          {
+            "type": "string",
+            "name": "signature"
+          },
+          {
+            "type": "bytes",
+            "name": "data"
+          },
+          {
+            "type": "uint256",
+            "name": "eta"
+          }
+        ],
+        "name": "queueTransaction",
+        "payable": false
+      },
+      "contractInputsValues": {
+        "target": "0xB829a5b349b01fc71aFE46E50dD6Ec0222A6E599",
+        "value": "0",
+        "signature": "addCreditFacade(address)",
+        "data": "0x000000000000000000000000facade00dc661bfbe736e2f0f72b4ee59017d5fb",
+        "eta": "1690733759"
+      }
+    },
+    {
+      "to": "0xa133C9A92Fb8dDB962Af1cbae58b2723A0bdf23b",
+      "value": "0",
+      "contractMethod": {
+        "inputs": [
+          {
+            "type": "address",
+            "name": "target",
+            "internalType": "address[]"
+          },
+          {
+            "type": "uint256",
+            "name": "value"
+          },
+          {
+            "type": "string",
+            "name": "signature"
+          },
+          {
+            "type": "bytes",
+            "name": "data"
+          },
+          {
+            "type": "uint256",
+            "name": "eta"
+          }
+        ],
+        "name": "queueTransaction",
+        "payable": false
+      },
+      "contractInputsValues": {
+        "target": "0xcc000017BeEDCBc7fAb3e57FAB3Cb72c2D00a343",
+        "value": "0",
+        "signature": "allowContract(address,address)",
+        "data": "0x000000000000000000000000f5f5b97624542d72a9e06f04804bf81baa15e2b4000000000000000000000000f590828b788324d207e18882baf6d04f217d17a6",
+        "eta": "1690733759"
+      }
+    },
+    {
+      "to": "0xa133C9A92Fb8dDB962Af1cbae58b2723A0bdf23b",
+      "value": "0",
+      "contractMethod": {
+        "inputs": [
+          {
+            "type": "address",
+            "name": "target",
+            "internalType": "address[]"
+          },
+          {
+            "type": "uint256",
+            "name": "value"
+          },
+          {
+            "type": "string",
+            "name": "signature"
+          },
+          {
+            "type": "bytes",
+            "name": "data"
+          },
+          {
+            "type": "uint256",
+            "name": "eta"
+          }
+        ],
+        "name": "queueTransaction",
+        "payable": false
+      },
+      "contractInputsValues": {
+        "target": "0xcc000017BeEDCBc7fAb3e57FAB3Cb72c2D00a343",
+        "value": "0",
+        "signature": "allowContract(address,address)",
+        "data": "0x0000000000000000000000008301ae4fc9c624d1d396cbdaa1ed877821d7c511000000000000000000000000862a97ad7efa1d66a1024ee26cdc3c0e13883168",
+        "eta": "1690733759"
+      }
+    },
+    {
+      "to": "0xa133C9A92Fb8dDB962Af1cbae58b2723A0bdf23b",
+      "value": "0",
+      "contractMethod": {
+        "inputs": [
+          {
+            "type": "address",
+            "name": "target",
+            "internalType": "address[]"
+          },
+          {
+            "type": "uint256",
+            "name": "value"
+          },
+          {
+            "type": "string",
+            "name": "signature"
+          },
+          {
+            "type": "bytes",
+            "name": "data"
+          },
+          {
+            "type": "uint256",
+            "name": "eta"
+          }
+        ],
+        "name": "queueTransaction",
+        "payable": false
+      },
+      "contractInputsValues": {
+        "target": "0xcc000017BeEDCBc7fAb3e57FAB3Cb72c2D00a343",
+        "value": "0",
+        "signature": "allowContract(address,address)",
+        "data": "0x000000000000000000000000b576491f1e6e5e62f1d8f26062ee822b40b0e0d40000000000000000000000004db070cad7ca264a3bced7166535a82b1a711916",
+        "eta": "1690733759"
+      }
+    },
+    {
+      "to": "0xa133C9A92Fb8dDB962Af1cbae58b2723A0bdf23b",
+      "value": "0",
+      "contractMethod": {
+        "inputs": [
+          {
+            "type": "address",
+            "name": "target",
+            "internalType": "address[]"
+          },
+          {
+            "type": "uint256",
+            "name": "value"
+          },
+          {
+            "type": "string",
+            "name": "signature"
+          },
+          {
+            "type": "bytes",
+            "name": "data"
+          },
+          {
+            "type": "uint256",
+            "name": "eta"
+          }
+        ],
+        "name": "queueTransaction",
+        "payable": false
+      },
+      "contractInputsValues": {
+        "target": "0xcc000017BeEDCBc7fAb3e57FAB3Cb72c2D00a343",
+        "value": "0",
+        "signature": "allowContract(address,address)",
+        "data": "0x0000000000000000000000009409280dc1e6d33ab7a8c6ec03e5763fb61772b500000000000000000000000051dc4adb76bf9823b3afb4332f6ce826d71d6129",
+        "eta": "1690733759"
+      }
+    },
+    {
+      "to": "0xa133C9A92Fb8dDB962Af1cbae58b2723A0bdf23b",
+      "value": "0",
+      "contractMethod": {
+        "inputs": [
+          {
+            "type": "address",
+            "name": "target",
+            "internalType": "address[]"
+          },
+          {
+            "type": "uint256",
+            "name": "value"
+          },
+          {
+            "type": "string",
+            "name": "signature"
+          },
+          {
+            "type": "bytes",
+            "name": "data"
+          },
+          {
+            "type": "uint256",
+            "name": "eta"
+          }
+        ],
+        "name": "queueTransaction",
+        "payable": false
+      },
+      "contractInputsValues": {
+        "target": "0xcc000017BeEDCBc7fAb3e57FAB3Cb72c2D00a343",
+        "value": "0",
+        "signature": "allowContract(address,address)",
+        "data": "0x000000000000000000000000b05262d4aaaa38d0af4aab244d446ebdb5afd4a70000000000000000000000007e59332011d7f4b248f70050371c28ce07a69dd5",
+        "eta": "1690733759"
+      }
+    },
+    {
+      "to": "0xa133C9A92Fb8dDB962Af1cbae58b2723A0bdf23b",
+      "value": "0",
+      "contractMethod": {
+        "inputs": [
+          {
+            "type": "address",
+            "name": "target",
+            "internalType": "address[]"
+          },
+          {
+            "type": "uint256",
+            "name": "value"
+          },
+          {
+            "type": "string",
+            "name": "signature"
+          },
+          {
+            "type": "bytes",
+            "name": "data"
+          },
+          {
+            "type": "uint256",
+            "name": "eta"
+          }
+        ],
+        "name": "queueTransaction",
+        "payable": false
+      },
+      "contractInputsValues": {
+        "target": "0xcc000017BeEDCBc7fAb3e57FAB3Cb72c2D00a343",
+        "value": "0",
+        "signature": "allowContract(address,address)",
+        "data": "0x000000000000000000000000085a2054c51ea5c91dbf7f90d65e728c0f2a270f000000000000000000000000f17391544b749ce209d1ea94f68ca95e79883c5b",
+        "eta": "1690733759"
+      }
+    },
+    {
+      "to": "0xa133C9A92Fb8dDB962Af1cbae58b2723A0bdf23b",
+      "value": "0",
+      "contractMethod": {
+        "inputs": [
+          {
+            "type": "address",
+            "name": "target",
+            "internalType": "address[]"
+          },
+          {
+            "type": "uint256",
+            "name": "value"
+          },
+          {
+            "type": "string",
+            "name": "signature"
+          },
+          {
+            "type": "bytes",
+            "name": "data"
+          },
+          {
+            "type": "uint256",
+            "name": "eta"
+          }
+        ],
+        "name": "queueTransaction",
+        "payable": false
+      },
+      "contractInputsValues": {
+        "target": "0xcc000017BeEDCBc7fAb3e57FAB3Cb72c2D00a343",
+        "value": "0",
+        "signature": "allowContract(address,address)",
+        "data": "0x000000000000000000000000b1fb0ba0676a1ffa83882c7f4805408ba232c1fa000000000000000000000000cab9f02baf9f3414a859d6b73b243407d303389d",
+        "eta": "1690733759"
+      }
+    },
+    {
+      "to": "0xa133C9A92Fb8dDB962Af1cbae58b2723A0bdf23b",
+      "value": "0",
+      "contractMethod": {
+        "inputs": [
+          {
+            "type": "address",
+            "name": "target",
+            "internalType": "address[]"
+          },
+          {
+            "type": "uint256",
+            "name": "value"
+          },
+          {
+            "type": "string",
+            "name": "signature"
+          },
+          {
+            "type": "bytes",
+            "name": "data"
+          },
+          {
+            "type": "uint256",
+            "name": "eta"
+          }
+        ],
+        "name": "queueTransaction",
+        "payable": false
+      },
+      "contractInputsValues": {
+        "target": "0xcc000017BeEDCBc7fAb3e57FAB3Cb72c2D00a343",
+        "value": "0",
+        "signature": "allowContract(address,address)",
+        "data": "0x0000000000000000000000008ca990e954611e5e3d2cc51c013fcc372c8c1d380000000000000000000000009fef386b7f1d5da7d6b98a6dd5dad3c4d66e25c1",
+        "eta": "1690733759"
+      }
+    },
+    {
+      "to": "0xa133C9A92Fb8dDB962Af1cbae58b2723A0bdf23b",
+      "value": "0",
+      "contractMethod": {
+        "inputs": [
+          {
+            "type": "address",
+            "name": "target",
+            "internalType": "address[]"
+          },
+          {
+            "type": "uint256",
+            "name": "value"
+          },
+          {
+            "type": "string",
+            "name": "signature"
+          },
+          {
+            "type": "bytes",
+            "name": "data"
+          },
+          {
+            "type": "uint256",
+            "name": "eta"
+          }
+        ],
+        "name": "queueTransaction",
+        "payable": false
+      },
+      "contractInputsValues": {
+        "target": "0xcc000017BeEDCBc7fAb3e57FAB3Cb72c2D00a343",
+        "value": "0",
+        "signature": "allowContract(address,address)",
+        "data": "0x000000000000000000000000f403c135812408bfbe8713b5a23a04b3d48aae310000000000000000000000006a20fbb49f9d199a3c2b313bb0992523116e3c47",
+        "eta": "1690733759"
+      }
+    }
+  ]
+}

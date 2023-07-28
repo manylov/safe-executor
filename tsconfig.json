@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "target": "ESNext",
+    "module": "commonjs",
+    "esModuleInterop": true,
+    "strict": true,
+    "resolveJsonModule": true,
+    "allowUnreachableCode": true,
+    "strictPropertyInitialization": false,
+    "noEmitOnError": true,
+    "experimentalDecorators": true
+  },
+  "exclude": ["node_modules", "dist", "src/tmp"]
+}

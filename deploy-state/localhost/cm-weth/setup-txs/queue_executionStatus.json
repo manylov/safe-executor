@@ -1,0 +1,97 @@
+[
+  {
+    "id": 0,
+    "comment": "cr.addCreditManager(0x4C6309fe2085EfE7A0Cfb426C16Ef3b41198cCE3)",
+    "status": "new"
+  },
+  {
+    "id": 1,
+    "comment": "poolService.connectCreditManager(0x4C6309fe2085EfE7A0Cfb426C16Ef3b41198cCE3)",
+    "status": "new"
+  },
+  {
+    "id": 2,
+    "comment": "creditConfigurator.setTotalDebtLimit(2800000000000000000000)",
+    "status": "new"
+  },
+  {
+    "id": 3,
+    "comment": "creditConfigurator.setEmergencyLiquidationDiscount(9600)",
+    "status": "new"
+  },
+  {
+    "id": 4,
+    "comment": "creditConfigurator.addEmergencyLiquidator(0x16040e932b5Ac7A3aB23b88a2f230B4185727b0d)",
+    "status": "new"
+  },
+  {
+    "id": 5,
+    "comment": "creditConfigurator.addEmergencyLiquidator(0x3c2E5548bCe88315D50eAB4f6b1Ffb2f1B8eBd7A)",
+    "status": "new"
+  },
+  {
+    "id": 6,
+    "comment": "add facade as pausable admin to acl",
+    "status": "new"
+  },
+  {
+    "id": 7,
+    "comment": "creditConfigurator.setMaxCumulativeLoss(600000000000000000000)",
+    "status": "new"
+  },
+  {
+    "id": 8,
+    "comment": "convexBooster.updateStakedPhantomTokensMap()",
+    "status": "new"
+  },
+  {
+    "id": 9,
+    "comment": "degenNFT.addCreditFacade(0xFaCADE00dc661bfBE736e2F0f72b4Ee59017d5fb)",
+    "status": "new"
+  },
+  {
+    "id": 10,
+    "comment": "creditConfigurator.allowContract(CURVE_3CRYPTO_POOL)",
+    "status": "new"
+  },
+  {
+    "id": 11,
+    "comment": "creditConfigurator.allowContract(CURVE_CRVETH_POOL)",
+    "status": "new"
+  },
+  {
+    "id": 12,
+    "comment": "creditConfigurator.allowContract(CURVE_CVXETH_POOL)",
+    "status": "new"
+  },
+  {
+    "id": 13,
+    "comment": "creditConfigurator.allowContract(CURVE_LDOETH_POOL)",
+    "status": "new"
+  },
+  {
+    "id": 14,
+    "comment": "creditConfigurator.allowContract(CONVEX_3CRYPTO_POOL)",
+    "status": "new"
+  },
+  {
+    "id": 15,
+    "comment": "creditConfigurator.allowContract(CONVEX_CRVETH_POOL)",
+    "status": "new"
+  },
+  {
+    "id": 16,
+    "comment": "creditConfigurator.allowContract(CONVEX_CVXETH_POOL)",
+    "status": "new"
+  },
+  {
+    "id": 17,
+    "comment": "creditConfigurator.allowContract(CONVEX_LDOETH_POOL)",
+    "status": "new"
+  },
+  {
+    "id": 18,
+    "comment": "creditConfigurator.allowContract(CONVEX_BOOSTER)",
+    "status": "new"
+  }
+]
