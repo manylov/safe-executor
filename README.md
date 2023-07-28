@@ -1,4 +1,4 @@
-# deploy-v2.1
+# Safe executor
 
 ```
 git clone https://github.com/manylov/safe-executor.git
