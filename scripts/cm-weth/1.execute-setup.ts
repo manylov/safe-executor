@@ -4,9 +4,9 @@ import { evm_fast_forward } from "../../src/base/utils/warp";
 const warpDays = 4;
 
 const main = async () => {
-  console.log("QUEUE ADDITIONAL PHANTOM TOKEN TX");
+  console.log("QUEUE ADDITIONAL PHANTOM AND UNLOCK TXS");
   const txManagerPhantom = new TxManager({
-    dir: "cm-weth/phantom",
+    dir: "cm-weth/phantom-unpause",
     clear: false, // use txs generated
   });
 
@@ -22,9 +22,6 @@ const main = async () => {
 
   console.log("EXECUTE CM WETH SETUP TXS");
   await txManager.callTxsFromSafeImpersonatedAccount("execute");
-
-  console.log("EXECUTE ADDITIONAL PHANTOM TOKEN TX");
-  await txManagerPhantom.callTxsFromSafeImpersonatedAccount("execute");
 
   console.log("DONE");
 };

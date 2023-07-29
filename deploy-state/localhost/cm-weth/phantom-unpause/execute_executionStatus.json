@@ -3,5 +3,10 @@
     "id": 0,
     "comment": "convexBooster.updateStakedPhantomTokensMap()",
     "status": "new"
+  },
+  {
+    "id": 1,
+    "comment": "creditManagerContract.unpause()",
+    "status": "new"
   }
 ]

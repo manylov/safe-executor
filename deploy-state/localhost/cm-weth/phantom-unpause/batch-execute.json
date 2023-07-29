@@ -1,14 +1,14 @@
 {
   "version": "1.0",
-  "chainId": "31337",
-  "createdAt": 1690635019462,
+  "chainId": "1",
+  "createdAt": 1690640156808,
   "meta": {
     "name": "batch-execute.json",
     "description": "updateStakedPhantomTokensMap",
     "txBuilderVersion": "1.16.0",
     "createdFromSafeAddress": "0xA7D5DDc1b8557914F158076b228AA91eF613f1D5",
     "createdFromOwnerAddress": "",
-    "checksum": "0x3ca66905e9c6e86ffc86d3741f27e6b6b992931838db96afa5a8899c6fefcaf9"
+    "checksum": "0x21c4e825a4712abb627436a8388c64d737a05333a923bb0fb4e3738959a04b43"
   },
   "transactions": [
     {
@@ -46,7 +46,45 @@
         "value": "0",
         "signature": "updateStakedPhantomTokensMap()",
         "data": "0x",
-        "eta": "1690980419"
+        "eta": "1690985747"
+      }
+    },
+    {
+      "to": "0xa133C9A92Fb8dDB962Af1cbae58b2723A0bdf23b",
+      "value": "0",
+      "contractMethod": {
+        "inputs": [
+          {
+            "type": "address",
+            "name": "target",
+            "internalType": "address[]"
+          },
+          {
+            "type": "uint256",
+            "name": "value"
+          },
+          {
+            "type": "string",
+            "name": "signature"
+          },
+          {
+            "type": "bytes",
+            "name": "data"
+          },
+          {
+            "type": "uint256",
+            "name": "eta"
+          }
+        ],
+        "name": "executeTransaction",
+        "payable": true
+      },
+      "contractInputsValues": {
+        "target": "0x4C6309fe2085EfE7A0Cfb426C16Ef3b41198cCE3",
+        "value": "0",
+        "signature": "unpause()",
+        "data": "0x",
+        "eta": "1690985747"
       }
     }
   ]
