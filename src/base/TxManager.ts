@@ -287,7 +287,7 @@ export class TxManager extends LoggedDeployer {
   }
 
   markTxExecuted(id: number, action: TimelockAction) {
-    this.#executionStatus[action][id].status = "sent";
+    // this.#executionStatus[action][id].status = "sent";
     this.save();
   }
 
