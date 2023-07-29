@@ -1,0 +1,47 @@
+[
+  {
+    "description": {
+      "to": "0xa133C9A92Fb8dDB962Af1cbae58b2723A0bdf23b",
+      "value": "0",
+      "contractMethod": {
+        "inputs": [
+          {
+            "type": "address",
+            "name": "target",
+            "internalType": "address[]"
+          },
+          {
+            "type": "uint256",
+            "name": "value"
+          },
+          {
+            "type": "string",
+            "name": "signature"
+          },
+          {
+            "type": "bytes",
+            "name": "data"
+          },
+          {
+            "type": "uint256",
+            "name": "eta"
+          }
+        ],
+        "name": "queueTransaction",
+        "payable": false
+      },
+      "contractFieldsValues": {
+        "target": "0x6a20FBb49F9D199a3C2B313bb0992523116E3C47",
+        "value": "0",
+        "signature": "updateStakedPhantomTokensMap()",
+        "data": "0x",
+        "eta": "1690980419"
+      }
+    },
+    "raw": {
+      "to": "0xa133C9A92Fb8dDB962Af1cbae58b2723A0bdf23b",
+      "value": "0",
+      "data": "0x3a66f9010000000000000000000000006a20fbb49f9d199a3c2b313bb0992523116e3c47000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000a000000000000000000000000000000000000000000000000000000000000000e00000000000000000000000000000000000000000000000000000000064ca5043000000000000000000000000000000000000000000000000000000000000001e7570646174655374616b65645068616e746f6d546f6b656e734d6170282900000000000000000000000000000000000000000000000000000000000000000000"
+    }
+  }
+]

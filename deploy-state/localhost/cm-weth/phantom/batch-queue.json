@@ -1,0 +1,53 @@
+{
+  "version": "1.0",
+  "chainId": "31337",
+  "createdAt": 1690635019459,
+  "meta": {
+    "name": "batch-queue.json",
+    "description": "updateStakedPhantomTokensMap",
+    "txBuilderVersion": "1.16.0",
+    "createdFromSafeAddress": "0xA7D5DDc1b8557914F158076b228AA91eF613f1D5",
+    "createdFromOwnerAddress": "",
+    "checksum": "0x40d75d9a5696e2b67ea689e53af50511a82ec456cecfed8189cd578d83f1ef65"
+  },
+  "transactions": [
+    {
+      "to": "0xa133C9A92Fb8dDB962Af1cbae58b2723A0bdf23b",
+      "value": "0",
+      "contractMethod": {
+        "inputs": [
+          {
+            "type": "address",
+            "name": "target",
+            "internalType": "address[]"
+          },
+          {
+            "type": "uint256",
+            "name": "value"
+          },
+          {
+            "type": "string",
+            "name": "signature"
+          },
+          {
+            "type": "bytes",
+            "name": "data"
+          },
+          {
+            "type": "uint256",
+            "name": "eta"
+          }
+        ],
+        "name": "queueTransaction",
+        "payable": false
+      },
+      "contractInputsValues": {
+        "target": "0x6a20FBb49F9D199a3C2B313bb0992523116E3C47",
+        "value": "0",
+        "signature": "updateStakedPhantomTokensMap()",
+        "data": "0x",
+        "eta": "1690980419"
+      }
+    }
+  ]
+}
